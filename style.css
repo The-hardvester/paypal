@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    position: relative;
+}
+
+footer{
+    position: relative;
+    top: 40px;
+}
+
+.img{
+    display: flex;
+   
+}
+.img img{
+    margin-left: 15%;
+}
+.card a{
+    margin-left: 120px;
+}
+
+@media (max-width: 576px){
+    .img{
+        display: block;
+    }
+    .img img{
+        margin-left: 12px;
+        width: 340px;
+    }
+    .card a{
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 1610px){
+    .img img{
+        margin-left: 17%;
+    }
+    .card a{
+        margin-left: 280px;
+    }
+  }
+
+  
+  @media (min-width: 991px) and (max-width:1398px){
+    .img img{
+        margin-left: 12%;
+    }
+}
